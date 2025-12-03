@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(59, 16, 2);
+    color: rgb(255, 253, 251);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 40rem;
+    width: 100%;
+}
+
+header {
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    height: 15%;
+    width: 100%;
+}
+
+header menu {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+
+header menu > img {
+    object-fit: cover;
+    height: 100%;
+    width: 80%;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 70%;
+    width: 70%;
+}
+
+header nav ul li {
+    display: flex;
+    height: 80%;
+    width: 80%;
+}
+
+header nav ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+
+a:hover {
+    background-color: rgb(211, 140, 73);
+    border-bottom: 1px solid rgb(255, 255, 220);
+}
+
+header img {
+    padding-left: 5%;
+    height: 100%;
+    width: 15%;
+}
+
+#banner {
+    
+    width: 100%;
+}
+
+#banner > img {
+    height: 80%;
+    width: 100%;
+}
+
+h1 {
+   
+    text-align: center;
+    font-size: 80px;
+    height: 30%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    height: 100%;
+    width: 100%;
+}
+
+main article {
+    border-radius: 8px;
+    background-color: rgb(214, 129, 18);
+    display: flex;
+    height: 25%;
+    width: 30%;
+}
+
+main article img {
+    height: 100%;
+    width: 90%;
+}
+
+main article section {
+    height: 100%;
+    width: 100%;
+}
+
+main article section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+}
+
+main article section p {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+    height: 36%;
+    width: 100%;
+}
+
+.cafe {
+    height: 23%;
+    width: 100%;
+}
+
+footer {
+    background-color: #080101; 
+    color: #fff; 
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+footer p {
+    margin: 5px 0;
+    font-size: 0.9em; 
+}
+
+footer a {
+    color: #ff9900;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffd700; 
+    text-decoration: underline; 
+}
+
+footer nav {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+footer nav a {
+    margin: 0 5px;
+}
