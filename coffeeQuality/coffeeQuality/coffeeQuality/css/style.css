@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(59, 16, 2);
+    color: rgb(255, 253, 251);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: auto;
+}
+
+.logo img {
+    object-fit: contain;
+    height: 80%;
+    width: auto;
+}
+
+#banner {
+    width: 100%;
+}
+
+#banner > img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    height: auto;
+    width: 100%;
+    padding: 20px 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 5%;
+    width: 100%;
+    height: auto;
+    flex-grow: 1;
+}
+
+main article {
+    border-radius: 8px;
+    background-color: rgb(214, 129, 18);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: auto;
+    width: 100%;
+}
+
+main article img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+main article section {
+    padding: 15px;
+}
+
+main article section h2 {
+    text-align: center;
+    color: rgb(59, 16, 2);
+    margin-bottom: 10px;
+    height: auto;
+    width: 100%;
+}
+
+main article section p {
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 0;
+    margin: 5px 0;
+}
+
+.cafe {
+    height: auto;
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #080101;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #ff9900;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+footer nav {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+footer nav a {
+    margin: 0 5px;
+}
